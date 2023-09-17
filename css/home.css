@@ -6,6 +6,10 @@
   align-items: center;
   flex-direction: column;
 }
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .home-navbar-container {
   top: 0;
   width: 100%;
@@ -56,6 +60,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
+  text-decoration: none;
 }
 .home-link {
   margin-right: var(--dl-space-space-tripleunit);
@@ -129,6 +134,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  text-decoration-color: black;
 }
 .home-link04 {
   margin-bottom: var(--dl-space-space-unit);
@@ -238,6 +244,7 @@
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-doubleunit);
+  font-family: 'Montserrat', sans-serif;
 }
 .home-icon-container {
   display: flex;
@@ -266,17 +273,6 @@
   color: var(--dl-color-gray-700);
   text-align: left;
 }
-.home-features-card1 {
-  width: 30%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
 .home-icon-container1 {
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -304,17 +300,7 @@
   color: var(--dl-color-gray-700);
   text-align: left;
 }
-.home-features-card2 {
-  width: 30%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
+
 .home-icon-container2 {
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -342,16 +328,7 @@
   color: var(--dl-color-gray-700);
   text-align: left;
 }
-.home-features-card3 {
-  width: 30%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
+
 .home-icon-container3 {
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -379,16 +356,7 @@
   color: var(--dl-color-gray-700);
   text-align: left;
 }
-.home-features-card4 {
-  width: 30%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
+
 .home-icon-container4 {
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -416,16 +384,7 @@
   color: var(--dl-color-gray-700);
   text-align: left;
 }
-.home-features-card5 {
-  width: 30%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
+
 .home-icon-container5 {
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -1240,6 +1199,7 @@ img {
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 .home-location-1 {
   display: flex;
@@ -1250,7 +1210,6 @@ img {
 .home-heading09 {
   font-size: 24px;
   font-style: normal;
-  font-family: Roboto;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
@@ -1408,26 +1367,7 @@ img {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-features-card1 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-features-card2 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-features-card3 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-features-card4 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-features-card5 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
+  
   .home-heading-container1 {
     width: 100%;
   }

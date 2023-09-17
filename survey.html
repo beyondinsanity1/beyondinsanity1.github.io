@@ -11,16 +11,13 @@
 </head>
 <body>
   <style>
-    
-    /* Styling the Body element i.e. Color,
-    Font, Alignment */
+
     body {
         background-image: url("/images/background/242.jpg"); ;
         font-family: Verdana;
         text-align: center;
     }
 
-    /* Styling the Form (Color, Padding, Shadow) */
     form {
         background-color: #fff;
         max-width: 500px;
@@ -29,20 +26,15 @@
         box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
-    /* Styling form-control Class */
     .form-control {
         text-align: left;
         margin-bottom: 25px;
     }
 
-    /* Styling form-control Label */
     .form-control label {
         display: block;
         margin-bottom: 10px;
     }
-
-    /* Styling form-control input,
-    select, textarea */
     .form-control input,
     .form-control select,
     .form-control textarea {
@@ -128,6 +120,7 @@
       </div>
     </div>
     <div style="padding-top:50px;">
+      <div  align = "left">
           <img style="border-radius: 13%;" class="idm" id="l0" src= "/images/designs/image0.png" alt="Design Photo">
           <img style="border-radius: 13%;" class="idm" id="l1" src= "/images/designs/image1.png" alt="Design Photo">
           <img style="border-radius: 13%;" class="idm" id="l2" src= "images/designs/image2.png" alt="Design Photo">
@@ -136,6 +129,7 @@
           <img style="border-radius: 13%;" class="idm" id="l5" src= "images/designs/image5.png" alt="Design Photo">
           <img style="border-radius: 13%;" class="idm" id="l6" src= "images/designs/image6.png" alt="Design Photo">
           <img style="border-radius: 13%;" class="idm" id="l7" src= "images/designs/image7.png" alt="Design Photo">
+        </div>
     </div>
   <form id="surveyForm">
     <div class="step" id="step1">
@@ -155,8 +149,8 @@
       <label for="email">Email:</label>
       <input placeholder="example@gmail.com" type="email" name="email" id="email" >
 
-      <button type="button" onclick="nextStep(1)">Next</button>
-  </div>
+      <button type="button" onclick="nextStep(1)" class="animated-btn">Next</button>
+    </div>
     <div class="step" id="step2">
         <h2>Step 2: Preferences</h2>
         
@@ -206,7 +200,7 @@
 </select>
 <br>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="animated-btn">Submit</button>
     </div>
 </form>
 
