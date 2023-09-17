@@ -9,9 +9,72 @@
     <link rel="stylesheet" href="/css/home.css">
 
 </head>
+<body>
+  <style>
+    
+    /* Styling the Body element i.e. Color,
+    Font, Alignment */
+    body {
+        background-color: beige;
+        font-family: Verdana;
+        text-align: center;
+    }
 
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+        background-color: #fff;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
 
+    /* Styling form-control Class */
+    .form-control {
+        text-align: left;
+        margin-bottom: 25px;
+    }
 
+    /* Styling form-control Label */
+    .form-control label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Styling form-control input,
+    select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        padding: 10px;
+        display: block;
+        width: 95%;
+    }
+
+    /* Styling form-control Radio
+    button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+    }
+
+    /* Styling Button */
+    button {
+        background-color: #05c46b;
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        font-size: 21px;
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+</style>
 <div>
   <link href="/css/home.css" rel="stylesheet" />
   <div class="home-container">
@@ -31,9 +94,9 @@
             </svg>
           </div>
           <div class="home-links-container">
-            <a href="#team" class="home-link Anchor">Team</a>
-            <a href="#purpose" class="home-link01 Anchor">purpose</a>
-            <a href="#contactus" class="home-link02 Anchor">Contact us</a>
+            <a href="index.html#team" class="home-link Anchor">Team</a>
+            <a href="index.html#purpose" class="home-link01 Anchor">purpose</a>
+            <a href="index.html#contactus" class="home-link02 Anchor">Contact us</a>
           </div>
         </div>
         <div class="home-right-side">
@@ -77,13 +140,16 @@
       <h2>Step 1: Personal Information</h2>
       <label for="firstName">First Name:</label>
       <input placeholder="Jonh" type="text" name="firstName" id="firstName" >
-
+      <br>
+      <br>
       <label for="lastName">Last Name:</label>
       <input placeholder="Brown" type="text" name="lastName" id="lastName" >
-
+      <br>
+      <br>
       <label for="phoneNumber">Phone Number:</label>
       <input type="tel" name="phoneNumber" id="phoneNumber" pattern="[0-9]{10}" placeholder="+1234567890" >
-
+      <br>
+      <br>
       <label for="email">Email:</label>
       <input placeholder="example@gmail.com" type="email" name="email" id="email" >
 
@@ -98,24 +164,30 @@
             <option value="King">King</option>
             <option value="Single">Single</option>
         </select>
+        <br>
+        <br>
         <label for="personality">Are you an introvert or an extrovert?</label>
 <select name="personality" id="personality">
     <option value="Introvert">Introvert</option>
     <option value="Extrovert">Extrovert</option>
 </select>
+<br>
+<br>
 
 <label for="morningOrNight">Are you a morning person or a night person?</label>
 <select name="morningOrNight" id="morningOrNight">
     <option value="Morning">Morning person</option>
     <option value="Night">Night person</option>
 </select>
-
+<br>
+<br>
 <label for="energyLevel">Are you energetic or calm?</label>
 <select name="energyLevel" id="energyLevel">
     <option value="Energetic">Energetic</option>
     <option value="Calm">Calm</option>
 </select>
-
+<br>
+<br>
         
         <!-- Theme input -->
         <label for="theme">Choose Theme:</label>
@@ -123,19 +195,21 @@
             <option value="Traditional">Traditional</option>
             <option value="Modern">Modern</option>
         </select>
+        <br>
+        <br>
         <label for="windowsize">Window Size:</label>
 <select name="windowsize" id="windowsize">
     <option value="Small">Small</option>
     <option value="Big">Big</option>
 </select>
-
+<br>
 
         <button type="submit">Submit</button>
     </div>
 </form>
 
-    <div class="home-section-separator3"></div>
-    <div class="home-footer-container">
+    <div id="footer"   class="home-section-separator3"></div>
+    <div id="footer" class="home-footer-container">
       <div class="home-footer">
         <div class="home-social-links">
           <svg viewBox="0 0 950.8571428571428 1024" class="home-icon60">

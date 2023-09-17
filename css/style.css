@@ -75,7 +75,9 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+  opacity: 1;
 }
+.button:hover {opacity: 0.6}
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
